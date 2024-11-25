@@ -1,0 +1,87 @@
+button[name=remove-tag],button[name=remove-photo]{
+    color: red;
+    background: pink;
+    padding: 1px 3px;
+    border: 1px solid red;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+button[name=remove-pet]{
+    color: red;
+    float: right;
+    background: pink;
+    padding: 1px 3px;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+button[name="add.tag"],button[name="add.photo"]{
+    color: blue;
+    background: #aefff6;
+    padding: 1px 3px;
+    border: 1px solid blue;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+form[name=pet] input[type=text],form[name=pet] input[type=number],form[name=pet] select{
+    padding: 1px;
+    margin: 2px;
+}
+
+form[name=pet] select{
+    width: 13em;
+}
+
+form[name=pet] fieldset{
+    padding: 2px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+form[name=pet] legend{
+    margin: 0 20px;
+    padding: 0 10px;
+}
+button[name="save.pet"]{
+    color: green;
+    border: 1px solid green;
+    border-radius: 3px;
+    background: #c6ffc7;
+    padding: 1px 3px;
+}
+
+table.pets-list td,table.pets-list th{
+    border-collapse: collapse;
+    border: 1px solid silver;
+    padding: 2px 4px;
+}
+
+table.pets-list a{
+    color: #8E91FF;
+    text-decoration: underline;
+}
+
+p.pet-success{
+    color: green;
+    border: 1px solid green;
+    padding: 5px
+}
+
+p.pet-error{
+    color: red;
+    border: 1px solid red;
+    padding: 5px
+}
+
+span.pet-category{
+    padding: 3px;
+    border: 1px dashed gray;
+    margin: 0px 3px;
+}
+
+a.pet-create-link{
+    color: green;
+    border: 1px dashed lime;
+}
